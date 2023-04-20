@@ -1,3 +1,4 @@
+# 17
 f = open('files/38951.txt').readlines()
 f = list(map(int, f))
 s = 0
