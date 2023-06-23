@@ -3,6 +3,6 @@ for i in range(0, 100000):
     n = str(n) + str((n.count('1')*1) % 2)
     n = str(n) + str((n.count('1')*1) % 2)
     r = int(n, 2)
-    if r > 43:
-        print(r)
+    if r > 249:
+        print(i)
         break
